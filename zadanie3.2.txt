@@ -1,0 +1,16 @@
+
+
+    Klasa to [DDEFINICJA/SZABLON OBIEKTU OKREŚLAJĄCA JEGO FUNKCJE I WŁAŚCIWOŚCI]
+    Obiekt to [INSTANCJA/REPREZENTACJA KLASY]
+    Zmienna to [MIEJSCE PRZECHOWYWANIA WARTOŚĆI O OKREŚLONYM TYPIE W PAMIĘCI KOMPUTERA PODCZAS DZIAŁANIA PROGRAMU]
+    Każda zmienna musi mieć określony [TYP], np. int, albo String.
+    Jeżeli deklarację zmiennej poprzedzimy słowem final, to [NIE MOŻNA ZMIENIĆ WARTOŚCI ZMIENNEJ W PROGRAMIE]
+    W klasie mogą się znajdować [POLA], [METODY] i [KONSTRUKTORY]
+    [KONSTRUKTORY] są wywoływane przez operator [NEW] i służą do tworzenia nowych obiektów.
+    Jeśli w klasie zdefiniowano chociaż jeden [KONSTRUKTOR] to kompilator nie wygeneruje dla nas [KONSTRUKTORA] domyślnego.
+    Zakładając, że istnieje klasa Car, to przy zapisie:
+
+    Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  
+    Car car2 = car1;​
+
+car1 i car2 to dwie [REFERENCJE] wskazujące na ten sam [OBIEKT]
